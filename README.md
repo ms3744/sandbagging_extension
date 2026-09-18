@@ -1,2 +1,2 @@
-# sandbagging_extension
+# Sandbagging Extension
 Expanding sandbagging eval methodology to test for instruction following as a non-target behaviour
