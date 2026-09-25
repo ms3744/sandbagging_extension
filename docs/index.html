@@ -298,6 +298,14 @@
       padding: 20px;
     }
 
+    .figure-slot.figure-grid--large {
+      aspect-ratio: 16 / 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
     .figure-slot span {
       font-family: var(--mono);
       font-size: 12.5px;
@@ -509,7 +517,7 @@
 
   <section id="key-findings">
     <div class="wrap">
-      <h2>What We Found</h2>
+      <h2>Our Findings</h2>
       <ul>
         <li>Our audit reveals that existing sandbagging methodologies are unverified for underlying non-target
           explanations such as instruction following, role-playing, eval awareness etc.</li>
@@ -781,7 +789,7 @@
 
       <div class="figure-grid figure-grid--large" style="margin-top: 28px;">
         <figure>
-          <div class="figure-slot">
+          <div class="figure-slot figure-grid--large">
             <img src="Methodology.png">
           </div>
           <figcaption><strong>Figure 4.</strong> An illustration of the methodology in an agentic environment.
